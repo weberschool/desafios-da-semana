@@ -1,0 +1,22 @@
+{
+  "name": "desafios-da-semana",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/ --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weberschool/desafios-da-semana.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weberschool/desafios-da-semana/issues"
+  },
+  "homepage": "https://github.com/weberschool/desafios-da-semana#readme"
+}
