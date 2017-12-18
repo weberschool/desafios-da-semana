@@ -1,11 +1,12 @@
 module.exports = {
-    translate: function(numero) {
-        if (numero % 3 === 0 && numero % 5 === 0) return 'fizzbuzz';
-        if (numero % 3 === 0) return 'fizz';
-        if (numero % 5 === 0) return 'buzz';
+    translate: function(number) {
+        if (number % 3 === 0 && number % 5 === 0) return 'fizzbuzz';
+        if (number % 3 === 0) return 'fizz';
+        if (number % 5 === 0) return 'buzz';
+        return number;
     },
 
     translateSequence: function(sequence) {
-        return '1, 2, fizz, 4, buzz, 14, fizzbuzz';
+        return sequence.map(number => this.translate(number)).join(', ');
     }
 };

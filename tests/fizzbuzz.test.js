@@ -46,7 +46,7 @@ describe('Fizzbuzz', function() {
 
     describe('Lista FizzBuzz', function() {
         it('deve retornar "1, 2, fizz, 4, buzz, 14, fizzbuzz" quando a sequência é 1, 2, 3, 4, 14, 15', function() {
-            assert.equal(FizzBuzz.translateSequence([1, 2, 3, 4, 14, 15], '1, 2, fizz, 4, buzz, 14, fizzbuzz'));
+            assert.equal(FizzBuzz.translateSequence([1, 2, 3, 4, 5, 14, 15]), '1, 2, fizz, 4, buzz, 14, fizzbuzz');
         });
     })
 });
